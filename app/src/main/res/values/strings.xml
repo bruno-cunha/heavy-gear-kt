@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Heavy Gear</string>
+    <string name="app_name_min">heavy gear</string>
+    <string name="moeda">R$</string>
+    <string name="pesquisa_hint">Pesquisa</string>
+    <string name="title_activity_config">ConfigActivity</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="ordem">Selecione a ordem de exibição</string>
+
+    <string-array name="pref_frequencia_atualizacao_entries">
+        <item>10 sec</item>
+        <item>20 sec</item>
+        <item>30 sec</item>
+        <item>1 min</item>
+    </string-array>
+
+    <string-array name="pref_frequencia_atualizacao_values">
+        <item>10000</item>
+        <item>20000</item>
+        <item>30000</item>
+        <item>60000</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="ordem">
+        <item>Altas</item>
+        <item>Baixas</item>
+        <item>Alfabética</item>
+    </string-array>
+</resources>

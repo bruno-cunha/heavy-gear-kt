@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/header_linearleyout"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgheader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/header_background"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/app_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/app_name_min"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/ultima_sincronizacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/app_nome"
+        android:layout_marginBottom="16dp"
+        android:text="Última sincronização: "
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/ultima_sincronizacao_datahora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ultima_sincronizacao"
+        android:layout_toEndOf="@+id/ultima_sincronizacao"
+        android:text=""
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="10sp"/>
+
+</RelativeLayout>

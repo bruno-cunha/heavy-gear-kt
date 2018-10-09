@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="pref_todas_acoes_pesquisa"
+        android:title="Carregar todas ações na pesquisa"
+        android:defaultValue="true"/>
+    <CheckBoxPreference
+        android:key="pref_exibe_variacao"
+        android:title="Exibir variação"
+        android:defaultValue="true"/>
+    <ListPreference
+        android:key="pref_frequencia_atualizacao"
+        android:title="Frequência de atualização"
+        android:summary="Intervalo de tempo para atualizar ações %s"
+        android:dialogTitle="Seleciona intervalo de tempo"
+        android:entries="@array/pref_frequencia_atualizacao_entries"
+        android:entryValues="@array/pref_frequencia_atualizacao_values"
+        android:defaultValue="10000"/>
+</PreferenceScreen>
